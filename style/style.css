@@ -1,0 +1,221 @@
+html, body {
+    height: 100%;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+.navbar .navbar-right i{
+    margin: 8px;
+}
+#myCarousel .carousel-item img{
+    max-height: 580px;
+    object-fit:cover;
+}
+.main-banner{
+    padding: 0px;
+}
+#myCarousel, #foodCarousel {
+    border: none !important;
+}
+#product-list .card-img-top{
+    margin: auto;
+    width: 30%;
+    height: 100%;
+}
+.variety-food-contain .card{
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #FFFFFF;
+    box-shadow: 15px 17px 45px 0px rgba(0, 0, 0, 0.05);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 20px 0px 0px;
+    --e-column-margin-right: 20px;
+    --e-column-margin-left: 0px;
+    padding: 50px 50px 50px 50px;
+}
+#product-list .card:hover {
+    background-color: #f6f7ff;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,.1);
+}
+.variety-food-contain .card-body h5.card-title {
+    text-align: center;
+}
+.variety-food-info{
+    background-color: #f2f2f2;
+}
+.variety-food-contain{
+    text-align: center;
+}
+.variety-food-info .title{
+    color: #b10916;
+}
+.variety-food-info .info{
+    text-align: center;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.variety-food-info .heading{
+    font-size: 37px;;
+}
+.variety-food-contain .content {
+    padding: 25px;
+}
+.variety-food-contain .card-body{
+    padding: 0px;
+}
+.variety-food-contain .card-body .btn{
+    fill: #17181C;
+    color: #fff;
+    background-color: #b10916;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 5px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    padding: 17px 30px 17px 30px;
+}
+.variety-food-contain .card-body .btn:hover {
+    color: #000 !important;
+    background-color: #02010100 !important;
+    border-color: #b10916 !important;
+}
+.cards-wrapper{
+    display: flex;
+}
+#foodCarousel .cards-wrapper .card-info {
+    padding: 0 15px;
+    width: 25%;
+    text-align: center;
+}
+#foodCarousel .heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#foodCarousel .cards-wrapper .card-info .subheading{
+    margin-top:15px;
+    font-size: 22px;
+}
+#foodCarousel .carousel-inner {
+    padding: 50px;
+}
+.variety-food-info{
+    padding: 30px;
+}
+#foodCarousel .cards-wrapper .card-info img{
+    border-radius: 50%; */
+    flex-shrink: 0;
+    cursor: pointer;
+    height: 15rem;
+    width: 15rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
+}
+
+.product-container .card img{
+    width: 100%;
+     height: 225px;
+  }
+  .product-container .card-footer{
+        border: none;
+      background: none;
+    padding-left: 0;
+  }
+  
+  .filter {
+    margin-top: 20px;
+  }
+  .filter-btn { 
+      padding: 8px 16px;
+      margin: 0 4px;
+      cursor: pointer;
+  }
+  
+  .filter-btn.active {
+      background: #333;
+      color: #fff;
+  }
+  .checkout-details img {
+    width: 100px;
+      height: 100px;
+  }
+  .checkout-details{
+    display: flex;
+        border: 1px solid;
+      margin: 10px;
+  }
+  .checkout-body{
+        padding-left: 10px;
+  }
+  .checkout-page .col-md-5{
+    border-left: 1px solid;
+      border-color: #000;
+  }
+  .checkout-page .col{
+    padding: 0 50px;
+  }
+  #checkoutForm .field__input-wrapper #firstName, #checkoutForm .field__input-wrapper #lastName{
+    width: 49.6%;
+  }
+  #checkoutForm .field__input-wrapper, #checkoutForm .field__input-wrapper input, #checkoutForm .field__input-wrapper select{
+    padding: 10px;
+  }
+  #checkoutForm {
+      padding: 30px 30px 30px 0px;
+  }
+  #checkoutForm input, #checkoutForm select{
+    width: 100%
+  }
+  .checkout-card{
+        padding: 30px 0px 30px 30px;
+  }
+  footer {
+    padding: 30px 0;
+  }
+  
+  footer p {
+    line-height: 1.5;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    color: #fff;
+  }
+  #gallery{
+    padding: 30px 0px;
+  }
+  #gallery .col {
+      padding: 10px 0px;
+  }
+  .wishlist-btn, .add-to-cart-btn, .remove-from-wishlist{
+    padding: 10px;
+      border-radius: 22px;
+      margin: 5px;
+    text-decoration: none;
+      border: 1px solid #000;
+      color: #000;
+      background-color: rgb(240, 240, 240);
+  }
+  .wishlist-btn:hover, .add-to-cart-btn:hover{
+    background-color: #fff;
+  }
+  #cart-items .btn-group button{
+    border-radius: 10px;
+      width: 24px;
+      font-size: 18px;
+      height: 100%;
+      padding: 0px;
+      margin: 0px 5px;
+  }
